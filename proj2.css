@@ -1,0 +1,11 @@
+p {
+    color: gray;
+    font-family: 'Inconsolata', monospace;
+}
+.heading1 {
+    color: rgb(65, 215, 180);
+    font-family: 'Inconsolata', monospace;
+}
+h1 {
+    font-family: 'Inconsolata', monospace;
+}
