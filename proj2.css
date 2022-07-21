@@ -1,11 +1,98 @@
-p {
-    color: gray;
-    font-family: 'Inconsolata', monospace;
+.features {
+    height: auto;
+    margin: auto;
+    max-width: 1024px;
+    width: 100%;
 }
-.heading1 {
-    color: rgb(65, 215, 180);
-    font-family: 'Inconsolata', monospace;
+
+.features h1 {
+    color: rgb(22, 28, 45);
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+    font-size: 30px;
 }
-h1 {
-    font-family: 'Inconsolata', monospace;
+
+.greenDevText {
+    color: rgb(66, 186, 150);
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.features p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(159, 174, 198);
+}
+
+.featuresBullets {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.featuresBullets ul {
+    list-style: none;
+}
+
+.updates {
+    display: flex;
+    align-items: center;
+}
+
+.updates svg {
+    color: green;
+    padding-right: 10px;
+}
+
+.updates p {
+    color: rgb(100, 198, 169);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tech {
+    display: flex;
+    align-items: center;
+}
+
+.tech svg {
+    color: green;
+    padding-right: 10px;
+}
+
+.tech p {
+    color: rgb(100, 198, 169);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.assets {
+    display: flex;
+    align-items: center;
+}
+
+.assets svg {
+    color: green;
+    padding-right: 10px;
+}
+
+.assets p {
+    color: rgb(100, 198, 169);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.integration {
+    display: flex;
+    align-items: center;
+}
+
+.integration svg {
+    color: green;
+    padding-right: 10px;
+}
+
+.integration p {
+    color: rgb(100, 198, 169);
+    font-family: 'Open Sans', sans-serif;
 }
